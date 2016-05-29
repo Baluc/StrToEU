@@ -31,7 +31,6 @@ class StrToEU {
 						)
 					);    
 	
-	
 	function checkInput($txt,$lang) {
 		
 		// validate the input parameters $txt (string to convert) and $lang (string language)
@@ -42,7 +41,7 @@ class StrToEU {
 			
 		}
 		else {
-
+			$languages = $this->languages;
 			if(empty($languages[$lang])) {
 				
 				// language is unsupported	
@@ -62,6 +61,7 @@ class StrToEU {
 	  // convert a string to uppercase
 	  
 		if($this->checkInput($txt,$lang) == 1) {
+			$languages = $this->languages;			
 			$ret = str_replace($languages[$lang]['low'],$languages[$lang]['app'],$txt);			
 		}
 		else {
@@ -72,11 +72,12 @@ class StrToEU {
 		}		
 	}
 
-	function low($lang) {
+	function low($txt,$lang) {
 	  
 	  // convert a string to lowercase	  
 	  
 		if($this->checkInput($txt,$lang) == 1) {
+			$languages = $this->languages;				
 			$ret = str_replace($languages[$lang]['app'],$languages[$lang]['low'],$txt);			
 		}
 		else {
@@ -86,7 +87,7 @@ class StrToEU {
 			return $ret;
 		}			
 	}	
-	
+
 }
 
 ?>
