@@ -10,3 +10,7 @@ $strtoeu = new StrToEU;<br />
 
 $strtoeu->low('StRinG','lang-code');<br />
 $strtoeu->app('StRinG','lang-code');
+
+Lang-codes:
+
+en - English
