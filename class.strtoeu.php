@@ -1,6 +1,6 @@
 <?php 
 
-class euStrTo {
+class StrToEU {
 
 	var $error = '';
 	var $languages = array(
