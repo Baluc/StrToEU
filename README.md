@@ -1,7 +1,7 @@
 # StrToEU
 <b>php class</b> - Converts a string in 24 EU languages to uppercase or lowercase
 
-<i>For now it supports only English and Deutsch</i>
+<i>For now it supports only English, Deutsch and French</i>
 
 <b>Usage</b>:
 
@@ -14,4 +14,5 @@ $strtoeu->app('StRinG','lang-code');
 <b>Lang-codes</b>:
 
 en - English<br />
-de - Deutsch
+de - Deutsch<br />
+fr - French
