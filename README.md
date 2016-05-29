@@ -13,5 +13,5 @@ $strtoeu->app('StRinG','lang-code');
 
 <b>Lang-codes</b>:
 
-en - English
+en - English<br />
 de - Deutsch
