@@ -3,7 +3,7 @@
 
 <i>For now it supports only English</i>
 
-Usage:
+<b>Usage</b>:
 
 include("<i style="color:grey">yourPathToTheClass</i>/class.strtoeu.php");<br />
 $strtoeu = new StrToEU;<br />
@@ -11,6 +11,6 @@ $strtoeu = new StrToEU;<br />
 $strtoeu->low('StRinG','lang-code');<br />
 $strtoeu->app('StRinG','lang-code');
 
-Lang-codes:
+<b>Lang-codes</b>:
 
 en - English
