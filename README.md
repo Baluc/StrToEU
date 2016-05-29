@@ -5,8 +5,8 @@
 
 Usage:
 
-include("<i style="color:grey">yourPathToTheClass</i>/class.strtoeu.php");
-$strtoeu = new StrToEU;
+include("<i style="color:grey">yourPathToTheClass</i>/class.strtoeu.php");<br />
+$strtoeu = new StrToEU;<br />
 
-$strtoeu->low('StRinG','lang-code');
+$strtoeu->low('StRinG','lang-code');<br />
 $strtoeu->app('StRinG','lang-code');
